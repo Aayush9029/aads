@@ -1,0 +1,37 @@
+package types
+
+type UserACLListResponse = APIListResponse[UserACL]
+type MeDetailResponse = APIResponse[MeDetail]
+
+type CampaignResponse = APIResponse[Campaign]
+type CampaignListResponse = APIListResponse[Campaign]
+type BudgetOrderInfoResponse = APIResponse[BudgetOrderInfo]
+type BudgetOrderInfoListResponse = APIListResponse[BudgetOrderInfo]
+type AdGroupResponse = APIResponse[AdGroup]
+type AdGroupListResponse = APIListResponse[AdGroup]
+type KeywordResponse = APIResponse[Keyword]
+type KeywordListResponse = APIListResponse[Keyword]
+type NegativeKeywordResponse = APIResponse[NegativeKeyword]
+type NegativeKeywordListResponse = APIListResponse[NegativeKeyword]
+type SearchEntityListResponse = APIListResponse[SearchEntity]
+
+type AdResponse = APIResponse[Ad]
+type AdListResponse = APIListResponse[Ad]
+type ProductPageReasonResponse = APIResponse[ProductPageReason]
+type ProductPageReasonListResponse = APIListResponse[ProductPageReason]
+type AppAssetListResponse = APIListResponse[AppAsset]
+type CreativeResponse = APIResponse[Creative]
+type CreativeListResponse = APIListResponse[Creative]
+
+type AppInfoListResponse = APIListResponse[AppInfo]
+type EligibilityRecordListResponse = APIListResponse[EligibilityRecord]
+type MediaDetailResponse = APIResponse[MediaDetail]
+type MediaLocaleDetailResponse = APIListResponse[MediaLocaleDetail]
+type ProductPageDetailResponse = APIResponse[ProductPageDetail]
+type ProductPageDetailListResponse = APIListResponse[ProductPageDetail]
+type ProductPageLocaleDetailListResponse = APIListResponse[ProductPageLocaleDetail]
+type ProductPageDetailWithAssetInfoResponse = APIResponse[ProductPageDetailWithAssets]
+type CountriesOrRegionsListResponse = APIListResponse[CountryOrRegion]
+
+type ReportingResponseBody = APIResponse[ReportingResponse]
+type CustomReportResponseBody = APIListResponse[CustomReportResponse]
